@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(206, 235, 219); ;
+}
+section{
+    background-color: rgb(206, 235, 219);
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+.login-container{
+     background-color: rgb(169, 169, 199);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width:300px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: block;
+    margin: 5px 0;
+}
+input{
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+button{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 25PX;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    
+}
