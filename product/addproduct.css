@@ -1,0 +1,52 @@
+
+.form{
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+   height: 100vh;
+}
+.formele{
+    border: 2px solid black;
+    width:50%;
+    margin: 1rem auto;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,49,253,1) 50%, rgba(252,176,69,1) 100%);
+}
+.f_input{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    padding: 1rem;
+    
+
+}
+.f_input input{
+    width: 80%;
+    height: 100%;
+  border: none;
+   padding-left:1rem;
+}
+.f_input label{
+   
+    height: 100%;
+  border: none;
+   padding-left:1rem;
+   font-size: 1.1rem;
+   margin-right: 4px;
+}
+
+.btnsubmit{
+    text-align: center;
+    
+    
+}
+
+.btnsubmit button{
+   padding: 5px 12px ;
+   width: 100px;
+   background-color: rgb(3, 16, 247);
+   margin: 0 0 10px 0 ;
+
+    
+}
+
